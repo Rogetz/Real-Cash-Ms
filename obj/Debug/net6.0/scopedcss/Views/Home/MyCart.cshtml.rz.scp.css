@@ -1,0 +1,89 @@
+main[b-38uf65qxyv]{
+    background-color: rgba(255,255,255,0.5);
+    min-height: 100vh;
+    min-width: 100%;
+    transition-duration: color 3s;
+    font-weight: bold;
+}
+.container[b-38uf65qxyv]{
+    min-height: 100Vh;
+}
+.main-cart[b-38uf65qxyv]{
+    /*If using the position then margin-auto wont work*/
+    min-height: 100vh;
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    background-image: white;
+    transition: all 3s;
+}
+.side-summary[b-38uf65qxyv]{
+    background-image: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.my-bolder[b-38uf65qxyv]{
+    font-weight: bolder;
+}
+hr[b-38uf65qxyv]{
+    width: 100%;
+    height: 0.3rem;
+    background-color: black;
+}
+.main-cart .row[b-38uf65qxyv]{
+    min-height: 80vh;
+}
+.side-summary .card[b-38uf65qxyv]{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.cart-image[b-38uf65qxyv]{
+    max-width: 25vw;
+    max-height: 20vh;
+}
+.cart-title[b-38uf65qxyv]{
+    color: rgba(0,20,255);
+    font-weight: bolder;
+    font-size:larger;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.summary-title[b-38uf65qxyv]{
+    color: rgba(255,255,255);
+    font-weight: bold;
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 0.2rem;
+}
+.amount-holder[b-38uf65qxyv]{
+    text-align: center;
+    margin: auto;
+    padding: 2rem 0.5rem;
+    background-color: rgba(0,0,255,0.9);
+}
+
+h1 .card-text[b-38uf65qxyv]{
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+.priceClass[b-38uf65qxyv], .side-subTotal[b-38uf65qxyv]{
+    color: green;
+    width: 3rem;
+    height: 5rem;
+    background-color: white;
+}
+
+.empty-cart[b-38uf65qxyv]{
+    color: white;
+    font-size: larger;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+}

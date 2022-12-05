@@ -1,0 +1,30 @@
+main[b-evlgsfm4l1]{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,25,255,0.8));
+    min-width: 100%;
+    min-height: 100vh;
+}
+.container[b-evlgsfm4l1]{
+    width: 60vw;
+    height: 70vh;
+    top: 20vh;
+    left: 20vw;
+    margin: auto;
+    position: absolute;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-image: url("stock photos/eggy-breakfast.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+p[b-evlgsfm4l1]{
+    font-size: large;
+    margin: auto;
+    vertical-align: middle;
+}
+footer[b-evlgsfm4l1]{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin: auto;
+}

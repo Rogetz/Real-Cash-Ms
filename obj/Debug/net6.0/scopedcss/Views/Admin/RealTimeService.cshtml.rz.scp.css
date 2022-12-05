@@ -1,0 +1,10 @@
+main[b-46n9ybs6wa]{
+    min-height: 100%;
+    min-width: 100vh;
+    background-color: rgba(20,150,200,0.8);
+}
+.container[b-46n9ybs6wa]{
+    width: 80%;
+    min-height: 100vh;
+    background-color: rgba(255,255,255,0.9);
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RealCashMs</title>
+    
+    <link rel="stylesheet" href="\lib\fontawesome-free-6.2.0-web\css\all.css">
+    <!--When reffering to a large file, I'd rather use this style, of  reffering to the cssfile
+    instead of the cshtml file.-->
+    <link rel="stylesheet"  href="/css/AdminLayout.css">
+    <link rel="icon" type="image/x-icon" href="/FinTech.PNG">
+</head>
+<body>  
+ <div class="container">
+        <!--aside html-->
+        <aside>
+            <div class="logo">
+                <img class="logo-img" alt="logo-img" src="/FinTech.PNG">
+                <div class="logo-text">Cash<span class="logo-extension">Ms</span></div>
+                <div class="close-btn"><span class="fa fa-close"></span></div>
+            </div>
+            <div class="sidebar">
+                <div class="menu-item">
+                    <div class="icon"><span class="fa fa-home"></span></div>
+                    <div class="menu-title">Dashboard</div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><span class="fa fa-fax"></span></div>
+                    <div class="menu-title">Orders
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><span class="fa fa-people-carry-box"></span></div>
+                    <div class="menu-title">Employees
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><span class="fa fa-mail-bulk"></span></div>
+                    <div class="menu-title">Notifications
+                    </div><span class="notification-bar">25</span>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><span class="fa fa-people-line"></span></div>
+                    <div class="menu-title">Customers
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><span class="fa fa-store"></span></div>
+                    <div class="menu-title">Stock
+                    </div>
+
+                </div>
+                <div class="menu-item">
+                    <div class="icon"><span class="fa fa-sign-out"></span></div>
+                    <div class="menu-title">
+                        Log-Out
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--Main html-->
+        <main>
+            <div class="dashboard-header">
+                <h1>Dashboard</h1>
+                <input type="date">
+            </div>
+            <div class="progress-flow">
+                <div class=" progress-card profits">
+                    <div class=" left-progress-items">
+                        <div class="progress-icon"><span class="fa fa-money-bill-trend-up"></span></div>
+                        <div class="progress-summary-name">Profit:</div>
+                        <div class="progress-summary-amount">$25000</div>
+                        <div class="progress-time">last 24 mins</div>
+                    </div>
+                    <div class="right-progress-items">
+                        <div class="progress-circle">
+                            <svg >
+                                <circle cy="75" cx="65" r="55"></circle>
+                            </svg>
+                        </div>
+                        <div class="progress-circle-text">81%</div>
+                        <div class="tracker">Profit Tracker</div>
+                    </div>
+                </div>
+                <div class="progress-card stock-flow">
+                    <div class="left-progress-items">
+                        <div class="progress-icon"><span class="fa fa-receipt"></span></div>
+                        <div class="progress-summary-name">Stocks:</div>
+                        <div class="progress-summary-amount">$500000</div>
+                        <div class="progress-time">last 24 mins</div>
+                    </div>
+                    <div class="right-progress-items">
+                        <div class="progress-circle">bar-placeholder</div>
+                        <div class="progress-circle-text">60%</div>
+                    </div>
+                </div>
+                <div class=" progress-card reviews-status">
+                    <div class="left-progress-items">
+                        <div class="progress-icon"><span class="fa fa-star"></span></div>
+                        <div class="progress-summary-name">Ratings:</div>
+                        <div class="progress-summary-amount">50000 c</div>
+                        <div class="progress-time">last 24 mins</div>
+                    </div>
+                    <div class="right-progress-items">
+                        <div class="progress-circle">star-placeholder</div>
+                        <div class="progress-circle-text">78%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-data">
+                <h1>Products On Sale</h1>
+                <div class="table">
+                    <div class="table-head">
+                        <div class="table-row">
+                            <div class="table-heading">Meal</div>
+                            <div class="table-heading">Price</div>
+                            <div class="table-heading">Employee</div>
+                            <div class="table-heading">Customer</div>
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-data">Chapati</div>
+                            <div class="table-data">$25000</div>
+                            <div class="table-data">Kevin</div>
+                            <div class="table-data">James</div>
+                        </div>
+                        <div class="table-row">
+                            @RenderBody();
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--right html-->
+        <div class="right">
+            <div class="profile-bar">
+                <div class="theme-toggler">
+                    <span class="dark-mode fa fa-star-and-crescent"></span>
+                    <span class="light-mode fa fa-sun"></span>
+                </div>
+                <div class="profile-details">
+                    <p class="profile-greeting">Hey there <span class="my-profile-name">Ogeta</span></p>
+                    <img src="/stock photos/mkuu.jpg" alt="profile" class="profile-image">
+                </div>
+            </div>
+            <div class="profile-chats">
+                <div class="chat-box">
+                    <img alt="pro" src="/stock photos/christmas-portrait-of-mother-and-toddler (1).jpg" class="profile-image">
+                    <div class="chat-left-class">
+                        <div class="chat-message"><span class="my-profile-name">Tom</span>replied to your text sent regarding his stock.</div>
+                        <div class="chat-time"> 25 mins ago</div>
+                    </div>
+                </div>
+                <div class="chat-box">
+                    <img alt="pro" src="/stock photos/camera-closeup.jpg" class="profile-image">
+                    <div class="chat-left-class">
+                        <div class="chat-message"><span class="my-profile-name">John</span>replied and sent an email regarding his order.</div>
+                        <div class="chat-time">24 mins ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-tasks">
+                <h2>Sales Analytics</h2>
+                <div class=" cart-task-item cart-class">
+                    <span class=" cart-task-icon fa fa-cart-shopping"></span>
+                    <h3>major Orders</h3>
+                    <div class="percentage-increment">+38%</div>
+                    <div class="cash-increment">$ 35000</div>
+                </div>
+                <div class=" cart-task-item store-details">
+
+                </div>
+                <div class=" cart-task-item Employee-Details">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="sidebar"> Hi sidebar thats the best place to be, its definitely the best
+            Hi sidebar thats the best place to be, its definitely the best
+            Hi sidebar thats the best place to be, its definitely the best
+            Hi sidebar thats the best place to be, its definitely the best
+            Hi sidebar thats the best place to be, its definitely the best
+            Hi sidebar thats the best place to be, its definitely the best
+            Hi sidebar thats the best place to be, its definitely the best
+        </div>
+        <div class="Dashboard">Hi dashboard</div>
+        <div class="Right-Notifications">HI right notifications</div>
+    -->
+    </div>
+    @await RenderSectionAsync("Scripts", required: false);
+</body>
+</html>

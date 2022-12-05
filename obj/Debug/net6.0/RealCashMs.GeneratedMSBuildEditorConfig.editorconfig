@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RealCashMs
+build_property.RootNamespace = RealCashMs
+build_property.ProjectDir = d:\MVCPROJECTS\TESTSUNCOUNTED\RealCashMs\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = d:\MVCPROJECTS\TESTSUNCOUNTED\RealCashMs
+build_property._RazorSourceGeneratorDebug = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/ContactCenter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0Q2VudGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/HelpCenter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwQ2VudGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Advantages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWR2YW50YWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-du80omtjmh
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Alert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t5lddlcccu
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Comments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p3fl1bjo22
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/CustomerEmployeeReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJFbXBsb3llZVJldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-u2acg8htdd
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-i5542mhn7u
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Employees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1wbG95ZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-u7qxyoh0j0
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-819kfe3okv
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Meals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWVhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-utmzo6ielx
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/MpesaRecordsTotals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTXBlc2FSZWNvcmRzVG90YWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-4eohtpvb5a
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/OrderManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-zg633x0bli
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Profits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZml0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-t6g0ct606w
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/RealTimeService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVhbFRpbWVTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-46n9ybs6wa
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Reviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-qgz1jye186
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Stocks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RvY2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-llk70yvkxk
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Admin/Store.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ym5albn82o
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Employee/Service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-7kjvonyfod
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-evlgsfm4l1
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-yh1yt45uhf
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/Comment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-8g81i44l8y
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-f6e33xzfjw
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/MyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-38uf65qxyv
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-wqja7tqjem
+
+[d:/MVCPROJECTS/TESTSUNCOUNTED/RealCashMs/Views/Home/Pay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1fw760f5au

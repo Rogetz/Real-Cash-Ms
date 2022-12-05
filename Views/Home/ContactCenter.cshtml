@@ -1,0 +1,66 @@
+
+
+@{
+    ViewData["Title"] = "ContactCenter";
+}
+@section links{
+    <link rel="stylesheet" href="ContactCenter.css">
+}
+
+<body>
+    <div class="contact-header">
+        <div class="contact-title-div">
+            <div class="logo">
+                <img class="logo-img" alt="logo-img" src="..\FinTech.PNG">
+                <div class="logo-text">Cash<span class="logo-extension">Ms</span></div>
+            </div>
+            <p class="contact-title">contact center</p>
+        </div>
+        <p>Feel free to reach us on our free hotline <br><span class="fa fa-fax"></span><span class="contact-detail">0758227415</span><br>
+        Email address<hr><br><span class="fa fa-mail-bulk"></span><span class="contact-detail">ronnyogetaz@gmail.com</span></p>
+    </div> 
+    <div class="Image-And-Description-holder">
+        <div class="Image-And-Description">
+            <img class="Image-holder" alt="Image-placeholder" src="..\hands-on-desk-at-meeting.jpg">
+            <div class="Image-Text">
+                <p class="Image-Title">Some crazy innovation?</p>
+                <p class="Image-Title-Two">Try us today.</p>
+                <p>All you need to do is visit our offices today come 
+                    have a chitty chat with us.<br>We believe in promoting talent and good ideas
+                </p>
+                <!--provide all the three options below, email, location and chat-->
+                <button class="image-text-button">Try us today</button>
+            </div>
+        </div>
+        <div class="Image-And-Description">    
+            <img class="Image-holder" alt="Image-placeholder" src="..\girl-presents-on-whiteboard.jpg">
+            <div class="Image-Text">
+                <p class="Image-Title">Interesting Idea?</p>
+                <p class="Image-Title-Two">Share it with Us</p>
+                <p>Do you have an interesting Idea ?<br>
+                    Come share with us today.<br>
+                    We believe in sharing ideas to better our society.
+                </p>
+                <!--redirect to a chat page, or ask user if he/ she wants to send an email
+                and if so pops up the email address for copying-->
+                <button class="image-text-button">Share it with us</button>
+            </div>
+        </div>
+        <div class="Image-And-Description">
+            <img class="Image-holder" alt="Image-placeholder" src="..\hamburger-and-fries.jpg">
+            <div class="Image-Text">
+                <p class="Image-Title">A snacky welkie?</p>
+                <p class="Image-Title-Two">Visit Us get one free</p>
+                <p>Is it an evening snack thats a bother?<br>
+                Come have a piece of hamburger seasoned with fresh brocoli<br>
+                We offer a piece for every Kfc meal eaten. 
+                </p>
+                <!--pop up to some location info in a pop up message box-->
+                <button class="image-text-button">Visit us Today</button>
+            </div>
+        </div>
+    </div>
+</body>
+@section scripts{
+    <script src="text/javascript" src="ContactCenter.js"></script>
+}

@@ -1,0 +1,26 @@
+@model myResult;
+
+@{
+    ViewData["Title"] = "Pay Page";
+}
+@section Scripts{
+    <script type="text/javascript" src="js/Toast.js"></script>
+}
+
+<main>
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+        <div class="toast-header">
+            <img src="/stock photos/berry-cheesecake.jpg" class="rounded me-2" alt="...">
+            <strong class="me-auto">CashMS</strong>
+            <small class="text-primary">New Order Alert</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            <p class="text-primary">Its @Model.resultValue;</p>
+        </div>
+    </div>
+    <div>
+        <p>Amount paid:- @ViewBag.AmountPaid</p>
+        <p>Phone Number used:- @ViewBag.PhoneNumberUsed</p>
+    </div>
+</main>

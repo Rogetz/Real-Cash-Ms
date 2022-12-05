@@ -1,0 +1,415 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*code for the root*/
+:root{
+    /*color variables*/
+    --color-white: rgba(255,255,255,1);
+    --color-light: rgba(255,255,255,0.7);
+    --color-dark: rgba(0,0,0,1);
+    --color-light-dark: rgba(0,0,0,0.5);
+    --color-grey: rgba(155,155,155,1);
+    --color-primary: rgba(0,0,255,0.8);
+    --color-danger: rgba(255,70,70,1);
+    --color-blue: rgba(0,0,255,0.8);
+    --color-light-blue: rgba(180,180,255,1);
+    --color-lighter-blue: rgba(220,220,255,1);
+    --color-success: rgba(0,255,0,0.8);
+    --color-light-green: rgba(0,255,0,0.5);
+    --color-green: rgba(0,255,0,1);
+    --color-pink: rgba(255,0,150,1);
+    --color-light-pink: rgba(255,0,150,0.4);
+    --color-purple: rgba(50,0,255,1);
+    --color-light-purple: rgba(50,0,255,1);
+    /*padding variales*/
+    --card-padding: 0.5rem;
+    --larger-padding: 2em;
+    /*margin-variables*/
+    --margin-top: 1rem;
+    --margin-bottom: 1rem;
+    --margin-right: 1rem;
+    --margin-left: 1rem;
+    /*border-radius*/
+    --card-border-radius: 1rem;
+    /*logo img sizing */
+    --logo-img-width: 3rem;
+    --logo--img-height: 3rem;
+    /*logo text sizing*/
+    --logo-text-font-size: 1rem;
+    --logo-text-line-height: 1rem;
+    /*button sizing*/
+    --button-width: 2rem;
+    --button-height: 2rem;
+    /*--menu-items*/
+    --menu-item-bottom: 0.3rem;
+    --menu-item-line-height: 1.5rem;
+    --menu-item-radius: 0.2rem;
+    --menu-item-width: 6.5rem;
+    /*transition time*/
+    --fast-smooth-transition: 0.3s;
+    /*text-styling, don't repest colors, only text-muted
+    is valid here.*/
+    --text-muted: rgba(0,0,0,0.6);
+    /*notification bar*/
+    --notification-light: rgba(255,255,255,0.8);
+    --notification-dark: rgba(0,0,0,1);
+}
+
+/* for the splash-div*/
+.logo{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    /*margin-bottom: 0.5rem;
+    margin-left: 0.7rem;*/
+    /*added*/
+    left: 0%;
+    top: 50%;
+    position: absolute;
+    z-index: 999;
+    transition: all 2s;
+    /*transform: rotateY(180deg);*/
+}   
+.logo.active{
+    display: flex;
+    transform: rotateX(1080deg);
+    left: 45%;
+    top: 50%;
+}
+.logo-img{
+    width: var(--logo-img-width);
+    height: var(--logo--img-height);
+    /*Here it was well of without a translation*/
+    /*transform: translate(10%,18%);*/
+}
+.logo-text{
+    color: rgba(255,255,255,0.8);
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: rgba(20,0,255);
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    line-height: 2em;
+    height: 2em;
+}
+.logo-extension{
+    color: rgba(255,20,180,0.8);
+}
+.splash-div .splash-text{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    transition: all 5s;
+}
+.splash-letter{
+    color: rgba(0,25,255,0);
+    padding: 0rem 0.25rem;
+    transition: all 5s;  
+}
+.splash-letter.active{
+    color: rgba(0,25,255,1);
+}
+.splash-text.active{
+    top: 40%;
+    right: 42%;
+    transform: rotateY(720deg);
+}
+.splash-div{
+    background-color: white;
+    width: 40%;
+    height: 40vh;
+    padding: 2rem;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    /*never omit this overflow  property.*/
+    overflow: hidden;
+    z-index: 999;
+    backdrop-filter: blur(5rem);
+}
+.splash-div.offline{
+    display: none;
+}
+
+  /*.largerDiv{
+    margin: 0;
+    width: 100%;
+    background-image: url("/stock photos/berry-cheesecake.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }*/
+.maximum-width{
+    position: relative;
+    /*margin-top: 5rem;*/
+    width: 100%;
+    /*Always use this min-heighty feature for defining heights of containers.*/
+    min-height: 100%;
+    /*background-color: rgba(0,25,255,0.8);*/
+    background-color: transparent;
+    /* */
+}
+/*Added for the new header and footer for all customer pages*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    display: grid;
+    height: 5rem;
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    grid-template-columns: 20rem auto;
+}
+header{
+    width: 100vw;
+    height: 5rem;
+    top: 0;
+    position: sticky;
+    /*avoid overflow hidden, it will cut drop downs*/
+    /*999 is for the splash screen*/
+    z-index: 800;
+    backdrop-filter: blur(10rem);
+}
+header div{
+    margin: auto;
+    /*If you center a div it centers both horizontally and vertically*/
+}
+.search-div{
+    display: flex;
+}
+.search-div div{
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+/*added extensions for the logo to avoid conflicts*/
+.Home-div .logo{  
+    /*added position and left properties in its children*/
+    position: relative;  
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.7rem;
+}
+.Home-div .logo .logo-img{
+    /*added position
+    Funny that by adding position relative to the
+    logo, logo-img and logo-text, the conflict between
+    it and the splash screen disappeared.*/
+    position: relative;
+    width: var(--logo-img-width);
+    height: var(--logo--img-height);
+    /*translate has been really instrumental in the initial layout.
+    Fortunately, its still instrumental even here.*/
+    transform: translate(10%,18%);
+}
+.Home-div .logo .logo-text{
+    /*added position*/
+    position: relative;
+    color: rgba(255,255,255,0.8);
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: rgba(20,0,255);
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    line-height: 2em;
+    height: 2em;
+}
+.logo .logo-extension{
+    color: rgba(255,20,180,0.8);
+}
+.search-input{
+    width: 20rem;
+    height: 2.5rem;
+    border: 0.1rem solid transparent;
+    /*This outline is actually what's more important, it removes the border during focus.*/
+    outline: none;
+    border-radius: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+.Other-items{
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    color: rgba(100,50,255,0.9);
+    padding-left: 1rem;
+}
+.Other-items div{  
+    display: flex;
+    font-size: medium;
+    padding-left: 0.3rem;
+    margin-right: 0.2rem;
+    padding-right: 0;
+}
+.search-form{
+    border: 0.2rem solid blue;
+    display: flex;
+    border-radius: 1rem;
+    padding-left: 0.2rem;
+    background-color: white;
+}
+.glass-holder{
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    transform: translate(50%,10%);
+}
+.fa-magnifying-glass{
+    color: blue;
+    font-size:x-large;
+}
+
+/* everything about the drop down menus*/
+.list-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.menu-titles:hover{
+    color: rgba(255,20,255,0.9);
+}
+/*For hiding basically anything*/
+/*For testing purposes place it before any other class for it to be applied first. */
+.visibility-hidden{
+    display: none;
+    visibility: hidden;
+}
+/*-----End of hiding anything------*/
+/* these two go together for the drop-down to work well*/
+.drop-down-group{
+    /*use both*/
+    display: none;
+    visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 2rem;
+    width: 10rem;
+    /*height: 15rem;*/
+    height: 18rem;
+    border: 1px solid black;
+    padding-left: 0rem;
+    border-radius: 0.3rem;
+    border-color: transparent;
+    background-color: white;
+    left: 0rem;
+}
+.drop-down-group.active{
+    display: flex;
+    visibility: visible;
+    z-index: 810;
+}
+.drop-down-group div{
+    margin: auto;
+}
+hr{
+    background-color: black;
+    width: 99%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0.2rem;
+    margin: auto;
+}
+.drop-down-group .normal-link{
+    text-decoration: none;
+}
+.my-button{
+    border: 0.2rem solid transparent;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+    color: rgba(255,50,200);
+    background-color: rgba(251,157,5);
+}
+/*---------End of drop-down-group----*/
+.right{
+    margin-right: 0.6rem;
+    color: black;
+}
+span{
+    color: rgba(0,20,150,0.9);
+}
+/*concerning all links*/
+.my-button:hover{
+    box-shadow: 0.3rem 0.3rem 0.3rem blue;
+    background-color: white;
+}
+a:hover{
+    width: 100%;
+    box-shadow: 0.3rem 0.3rem 0.3rem blue;  
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    border-color: transparent;
+}
+/*End of all links*/
+/*Everything footers*/
+footer{
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255,255,255);
+}
+footer div{
+    text-align: center;
+    color: white;
+}
+footer .normal-link{
+    text-decoration: none;
+    color: black;
+}
+.social-media-accounts span{
+    font-size: xx-large;
+    color: blue;
+    padding: 0.5rem;
+}
+.social-media-accounts span:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    border-radius: 0.2rem;
+}
+.partners-info{
+    background-color: var(--color-blue);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: larger;
+    padding: 1.5rem 0rem;
+}
+.partners-info span{
+    height: fit-content;
+    padding: 0rem 1rem;
+}
+/*for uniformity amongst the pay dealers.*/
+.partners-info span img{
+    height: 3rem;
+}
+.payment-icon{
+    border-radius: 0.4rem;
+    box-shadow: 0.2rem 0.2rem 0.1rem var(--color-blue);
+}
+.copy-right{
+    color: blueviolet;
+}
+.terms-of-service{
+    padding: 1rem 0rem;
+    font-weight: bold;
+}
+/*End of footers*/

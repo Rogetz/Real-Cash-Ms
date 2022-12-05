@@ -1,0 +1,111 @@
+.container-div[b-f6e33xzfjw]{
+    background-color: rgba(255,255,255,0.1);
+    padding: 1rem;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 0.1em solid rgba(255,255,255,0.7);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+.navbar-nav[b-f6e33xzfjw]{
+    margin: auto;
+}
+.card-img-top[b-f6e33xzfjw]{
+    height: 30vh;
+}
+main[b-f6e33xzfjw]{
+    width: 100%;
+    margin: auto;
+    /*min-height is very suitable for container heights.*/
+    min-height: 100%;
+    background-image: url("/stock photos/berry-cheesecake.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.carousel-item[b-f6e33xzfjw]{
+    height: 100%;
+}
+.carousel[b-f6e33xzfjw]{
+    margin: auto;
+    width: 80%;
+}
+img[b-f6e33xzfjw]{
+    max-height: 80vh;
+}
+
+/*my card css */
+
+.card-div[b-f6e33xzfjw]{
+    /*ommited the width since we are using the grids width.*/
+    border-radius: 0.1rem;
+    width: 18rem;
+    height: 26rem;
+    padding: 1rem;
+    background-color: rgba(0,50,255,0.8);
+    position: relative;
+    box-shadow: 1rem 1rem 1.2rem rgba(0,0,255,0.5);
+}
+.card-div-image[b-f6e33xzfjw]{
+    width: 16rem;
+    height: 13rem;
+    margin: auto;
+}
+.card-div-image-description[b-f6e33xzfjw]{
+    color: rgba(250,0,150,0.9);
+}
+.card-div-title[b-f6e33xzfjw]{
+    color: rgba(0,0,0,0.9);
+    font-weight: bold;
+    display: flex;
+    padding: 1rem;
+    margin-left: 3.5rem;
+
+}
+.card-div-amount[b-f6e33xzfjw]{
+    color: rgba(0,255,50,1);
+    font-size: larger;
+    border-bottom: 0.2rem solid black;
+    margin-left: 0.5rem;
+}
+.card-div-functionality[b-f6e33xzfjw]{
+    text-decoration: none;
+    background-color: rgba(0,50,255,0.9);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-left: 7rem;
+    border-radius: 10%;
+    bottom: 1.8rem;
+    /* add the position attribute to it to enable the top, bottom features work.
+    to mean you add position attributes to the parent too.*/
+    position: absolute;
+}
+hr[b-f6e33xzfjw]{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+/*addons to card */
+/* cart-button */
+.cart-btn[b-f6e33xzfjw]{
+    background-color: white;
+    width: fit-content;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    color: rgba(0,0,255);
+    font-weight: bold;
+}
+
+/*----------*end of card*--------*/
+
+/*Remove the display of the cart from the html*/
+.InputVisibility[b-f6e33xzfjw]{
+    display: none;
+}

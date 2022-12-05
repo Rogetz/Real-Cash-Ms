@@ -1,0 +1,18 @@
+.toast{
+    margin: auto;
+    /*position: absolute */
+    font-weight: bold;
+}
+img{
+    width:2vw;
+    height:2vh;
+}
+main{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: rgba(100,100,50,0.8);
+    background-image:  linear-gradient(rgba(0,50,255,0.5),rgba(20,60,240,0.3)),url("/stock photos/berry-cheesecake.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

@@ -1,0 +1,30 @@
+@model IQueryable<ICollection<Meal>>;
+
+@{
+    ViewData["Title"] = "Meals";
+}
+<!--
+<main>
+    <!--<div>
+        <p> This page displays the current available no of meals available<br>
+        It displays the number of customers who requested for a particular specific meal.<br>
+        It also displays the number of customers who requested for a particular meal combination.<br>
+        It displays the remaining amount of meal for each specific meal.</p>
+    </div>-->
+    <!--
+    <div class="container">--><!--
+        -->
+        <!--
+        <p>the ViewBag works perfectly fine, the problem is why is the customer One not working.</p>
+        <p>The number of customers should be clearly visisble.</p>
+        <p>Seems that the ViewBag doesn't work with non static data, such as that from
+            the database.<br>Instead it only works with the data thats static.
+        </p>
+        -->
+        <!--Tested it, but its throwing the null reference exception that the object can not refer to a null reference
+        Though the thing is the ViewData["CustomerTable"] has been passed in some values.
+        Remember that this is a ViewData dictionary, so investigate on how you can enumerate
+        through it. If possible I can add a sub class or inherited class that implements the IComparable
+        interface which is actually the interface for such kineds of things.-->
+    <!--</div>
+</main>-->

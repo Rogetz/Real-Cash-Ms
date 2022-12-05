@@ -1,0 +1,30 @@
+@model Customer;
+
+@{
+    ViewData["Title"] = "Customers";
+}
+
+
+<main>
+    <div class="container">
+        <p>This page displays everything about the customers.<br>
+        Lists the details of customers for the particular day.
+        <br>Such as the no of customers for the day<br>
+        The number of customers that ordered for a particular meal or order in a day.
+        (details like the names,orderIssued to the specific model(I've added the orderIssuing model
+        for the sake of instances of orders being received by a hotel, so that  they can know which order
+        to process next.),receipt no's., mpesa confirmation codes.)<br>
+        For a customer to be categorized as one. He/She must have a receipt issued to him as well as the orderNo(which might/might not be used in serving food, depends on the wish of the company.)</p>
+        <p>Am adding the orderIssueing class so that it can record the order no of the customer
+            for satisfactory service of customers in order.</p>
+        <p>I'll implement the order issue model in both cases but then for the sake of the mess whereby they 
+            might not need the ordering, I can or can not impmenet the restrictions of the model
+        However the issue model must always be there</p>
+    <div>
+    <!--<form method="post" action="Customers" asp-route-MealIdentity="Meal">
+        <label asp-for="mealIdentifierAgainstQuantity">Input your meal</label>
+        <input asp-for="mealIdentifierAgainstQuantity">
+        <input type="number" name="Meal">
+        
+    </form>-->
+</main>

@@ -1,0 +1,65 @@
+@model List<ImageClass>;
+
+
+@{
+    ViewData["Title"] = "MyCart";
+
+}
+@{
+        void PrintRows(List<ImageClass> listImageClass){
+        if(listImageClass.Count >= 1){
+            foreach(var imageInstance in listImageClass){
+                    <tr>
+                        <td><img class="cart-image" src="/stock photos/@imageInstance.ImgName" alt="Test Row IMage"></td>
+                        <td>@imageInstance.Name</td>
+                        <td class="priceClass">@imageInstance.Price</td>
+                        <td class="cart-input"><input type="number" value="@imageInstance.Quantity" min="1"></td>
+                        <td class="subTotal">@imageInstance.Price</td>
+                    </tr>
+
+            }
+        }
+        else{
+            <tr>
+                <td class="empty-cart">Cart is empty</td>
+            </tr>
+        }        
+    }
+}
+@section Scripts{
+    <script type="text/javascript" src="/js/MyCart.js">
+
+    </script>
+}
+
+<main>
+    <div class="container main-cart ">
+        <div class="row">
+            <div class="col-sm-8">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th> Food </th>
+                            <th> Name </th>
+                            <th> Price </th>
+                            <th> Quantity </th>
+                            <th> Sub Total </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{PrintRows(Model);}
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4 side-summary">
+                <div class=" card ">
+                    <div class="card-body">
+                        <p class="card-text text-primary cart-title">Cart Total Amount</p><hr>
+
+                        <p class="card-text text-dark  text-danger amount-holder"><span class="summary-title">Total Amount: </span>$ <span class="side-subTotal">5200</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
